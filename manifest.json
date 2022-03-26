@@ -1,0 +1,35 @@
+{
+    "name": "demo0.1",
+    "version": "0.1",
+    "description": "勾勾画画",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "liner.js"
+            ],
+            "css":["liner.css"],
+            "type": "module",
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "js/dtd.js",
+                "js/utils.js",
+                "js/domUtils.js",
+                "js/browser.js",
+                "js/Range.js"
+            ],
+            "matches":["<all_urls>"]
+        }
+    ],
+    "manifest_version": 3
+}

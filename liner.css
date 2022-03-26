@@ -1,0 +1,17 @@
+.custom-underline{
+    text-decoration: rgb(4, 167, 4) wavy underline;
+}
+
+.nite-writer-pen{
+    background-color: rgba(255, 238, 0, 0.685);
+}
+
+.iconDiv{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid rgba(185, 103, 27, 0.589) ; */
+}
