@@ -1,5 +1,6 @@
 .custom-underline{
     text-decoration: rgb(4, 167, 4) wavy underline;
+    text-decoration-color: rgb(4, 167, 4);
 }
 
 .nite-writer-pen{
@@ -7,6 +8,7 @@
 }
 
 .iconDiv{
+    z-index: 100;
     position: fixed;
     left:0;
     top:0;
